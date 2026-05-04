@@ -1,0 +1,22 @@
+{
+    "experiment_name": "buzzmetric-engagement-score",
+    "models": [
+        {
+            "name": "LinearRegression",
+            "mae": 6.674145588283125,
+            "rmse": 7.523293382275931,
+            "r2": 0.9494460531291959,
+            "mape": 17.3600747814868
+        },
+        {
+            "name": "Ridge",
+            "mae": 10.721552169191366,
+            "rmse": 11.366990165035762,
+            "r2": 0.8845935611763358,
+            "mape": 31.04412459476748
+        }
+    ],
+    "best_model": "LinearRegression",
+    "best_metric_name": "rmse",
+    "best_metric_value": 7.523293382275931
+}

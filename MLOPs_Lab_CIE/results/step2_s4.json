@@ -1,0 +1,16 @@
+{
+ "health_endpoint": "/status",
+ "predict_endpoint": "/predict",
+ "port": 8000,
+ "health_response": {
+   "status": "healthy",
+   "model_loaded": true
+ },
+ "test_input": {
+   "followers_count": 36344,
+   "post_hour": 14,
+   "has_media": 0,
+   "content_length": 269
+ },
+ "prediction": 26.23263485643375
+}
